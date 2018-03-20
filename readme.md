@@ -45,7 +45,7 @@ module.exports = function (babel) {
     };
 };
 ```
-Javascript实现一个Javascript解析器
+Javascript实现Javascript解析器
 ==
 这里比较关键的部分生成AST是用babylon这个模块生成的，自己写的话简单的没问题，完美的话还是需要蛮多精力的，另外呢这里还有许多坑没填，比如变量作用域啊，变量提升啊等等，这只是一个demo，后面有时间我会慢慢完善。
 ```js
